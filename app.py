@@ -88,7 +88,7 @@ def main():
     
     # Sidebar
     st.sidebar.title("Navigation")
-    page = st.sidebar.radio("Go to", ["Predict", "Explore Data"] , "about us" )
+    page = st.sidebar.radio("Go to", ["Predict", "Explore Data"])
     
     # Load data and model
     data = load_and_preprocess_data()
